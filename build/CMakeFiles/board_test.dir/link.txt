@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/board_test.dir/test/board_test.cpp.o  -o board_test  lib/libgtest_main.a libt3_lib.a lib/libgtest.a -lpthread 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libt3_lib.a  CMakeFiles/t3_lib.dir/src/square.cpp.o CMakeFiles/t3_lib.dir/src/board.cpp.o
+/usr/bin/ranlib libt3_lib.a

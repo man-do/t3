@@ -1,0 +1,169 @@
+Start testing: Jan 03 12:41 CET
+----------------------------------------------------------
+1/6 Testing: BoardTest.GetSetAssertions
+1/6 Test: BoardTest.GetSetAssertions
+Command: "/home/maverick/personal_projects/t3/build/board_test" "--gtest_filter=BoardTest.GetSetAssertions" "--gtest_also_run_disabled_tests"
+Directory: /home/maverick/personal_projects/t3/build
+"BoardTest.GetSetAssertions" start time: Jan 03 12:41 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = BoardTest.GetSetAssertions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BoardTest
+[ RUN      ] BoardTest.GetSetAssertions
+[       OK ] BoardTest.GetSetAssertions (0 ms)
+[----------] 1 test from BoardTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BoardTest.GetSetAssertions" end time: Jan 03 12:41 CET
+"BoardTest.GetSetAssertions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: BoardTest.ResetAssertions
+2/6 Test: BoardTest.ResetAssertions
+Command: "/home/maverick/personal_projects/t3/build/board_test" "--gtest_filter=BoardTest.ResetAssertions" "--gtest_also_run_disabled_tests"
+Directory: /home/maverick/personal_projects/t3/build
+"BoardTest.ResetAssertions" start time: Jan 03 12:41 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = BoardTest.ResetAssertions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BoardTest
+[ RUN      ] BoardTest.ResetAssertions
+[       OK ] BoardTest.ResetAssertions (0 ms)
+[----------] 1 test from BoardTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BoardTest.ResetAssertions" end time: Jan 03 12:41 CET
+"BoardTest.ResetAssertions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: BoardTest.PlayerTurnAssertions
+3/6 Test: BoardTest.PlayerTurnAssertions
+Command: "/home/maverick/personal_projects/t3/build/board_test" "--gtest_filter=BoardTest.PlayerTurnAssertions" "--gtest_also_run_disabled_tests"
+Directory: /home/maverick/personal_projects/t3/build
+"BoardTest.PlayerTurnAssertions" start time: Jan 03 12:41 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = BoardTest.PlayerTurnAssertions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BoardTest
+[ RUN      ] BoardTest.PlayerTurnAssertions
+[       OK ] BoardTest.PlayerTurnAssertions (0 ms)
+[----------] 1 test from BoardTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BoardTest.PlayerTurnAssertions" end time: Jan 03 12:41 CET
+"BoardTest.PlayerTurnAssertions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: BoardTest.GetWinnerAssertions
+4/6 Test: BoardTest.GetWinnerAssertions
+Command: "/home/maverick/personal_projects/t3/build/board_test" "--gtest_filter=BoardTest.GetWinnerAssertions" "--gtest_also_run_disabled_tests"
+Directory: /home/maverick/personal_projects/t3/build
+"BoardTest.GetWinnerAssertions" start time: Jan 03 12:41 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = BoardTest.GetWinnerAssertions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BoardTest
+[ RUN      ] BoardTest.GetWinnerAssertions
+/home/maverick/personal_projects/t3/test/board_test.cpp:67: Failure
+Expected equality of these values:
+  b->getWinner()
+    Which is: 1
+  t3::PlayerTurn::One
+    Which is: 0
+[  FAILED  ] BoardTest.GetWinnerAssertions (0 ms)
+[----------] 1 test from BoardTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] BoardTest.GetWinnerAssertions
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"BoardTest.GetWinnerAssertions" end time: Jan 03 12:41 CET
+"BoardTest.GetWinnerAssertions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: BoardTest.SetPlayerOneMarkAssertions
+5/6 Test: BoardTest.SetPlayerOneMarkAssertions
+Command: "/home/maverick/personal_projects/t3/build/board_test" "--gtest_filter=BoardTest.SetPlayerOneMarkAssertions" "--gtest_also_run_disabled_tests"
+Directory: /home/maverick/personal_projects/t3/build
+"BoardTest.SetPlayerOneMarkAssertions" start time: Jan 03 12:41 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = BoardTest.SetPlayerOneMarkAssertions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BoardTest
+[ RUN      ] BoardTest.SetPlayerOneMarkAssertions
+[       OK ] BoardTest.SetPlayerOneMarkAssertions (0 ms)
+[----------] 1 test from BoardTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BoardTest.SetPlayerOneMarkAssertions" end time: Jan 03 12:41 CET
+"BoardTest.SetPlayerOneMarkAssertions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: BoardTest.IsTieAssertions
+6/6 Test: BoardTest.IsTieAssertions
+Command: "/home/maverick/personal_projects/t3/build/board_test" "--gtest_filter=BoardTest.IsTieAssertions" "--gtest_also_run_disabled_tests"
+Directory: /home/maverick/personal_projects/t3/build
+"BoardTest.IsTieAssertions" start time: Jan 03 12:41 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = BoardTest.IsTieAssertions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BoardTest
+[ RUN      ] BoardTest.IsTieAssertions
+[       OK ] BoardTest.IsTieAssertions (0 ms)
+[----------] 1 test from BoardTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BoardTest.IsTieAssertions" end time: Jan 03 12:41 CET
+"BoardTest.IsTieAssertions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 03 12:41 CET

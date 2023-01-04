@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/board.h
+square.h
+-
+unordered_map
+-
+vector
+-
+
+../include/square.h
+
+/home/maverick/personal_projects/t3/src/board.cpp
+board.h
+-
+square.h
+-
+iostream
+-
+unordered_map
+-
+vector
+-
+

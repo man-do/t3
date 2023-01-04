@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/t3.dir/src/main.cpp.o CMakeFiles/t3.dir/src/square.cpp.o CMakeFiles/t3.dir/src/board.cpp.o  -o t3 
